@@ -1,48 +1,96 @@
 
 body {
   background-color: #FCEFFF;
-  font-family: 'Poppins', sans-serif;
-}
-
-.container-fluid {
-  padding: 0 15% 8%;
-}
-
-.navbar-brand {
-  color: #3A3A3A;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding-left: 15px;
+  font-family: 'Poppins';
 }
 
 h1 {
-  color: #3A3A3A;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.2;
-  width: 105%;
-  margin: 100px 0 0 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
+}
+
+h5 {
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: normal;
+  text-align: center;
 }
 
+.container-fluid {
+  padding: 0 15% 5%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  color: #3A3A3A;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 15px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Poppins';
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  padding: 6px 6px;
+}
+
+.dropdown-item {
+  line-height: 2.5;
+  color: #3A3A3A;
+  font-family: 'poppins';
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: #F3C7FF;
+  color: blue;
+  border-radius: 10px;
+}
+
+
+
+/* Hero Section */
+
 .tagline {
+  color: #3A3A3A;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  width: 105%;
+  margin: 100px 0 0 0;
+}
+
+.semi-tagline {
   color: #D437FD;
 }
 
 .introtext {
   width: 95%;
   margin: 30px 0 50px 0;
+  text-align: left;
 }
-
-
-/* Image Styles */
 
 .illustration {
   width: 550px;
@@ -50,25 +98,109 @@ p {
   margin: 30px 50px;
 }
 
+.layer1 {
+  margin-top: 100px;
+  height: 20px;
+
+}
+
+.layer2 {
+  margin-top: 15px;
+  height: 20px;
+}
+
+
+/* Partners */
+
+.container-fluid2 {
+  padding: 2% 15% 7% 15%;
+}
+
+.text-center1 {
+  border-radius: 10px;
+  margin-left: 22%;
+  border-width: 0 5px 5px 0;
+  border-color: #8D8D8D;
+}
+
+.ptn {
+  width: 70px;
+  height: 50px;
+  margin-left: 40%;
+}
+
+.ptn2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 30%
+}
+
+/* Features */
+
+
+.features {
+  padding: 0 15%;
+  text-align: center;
+}
+
+.features-col {
+  padding: 0 5% 5%;
+}
+
+.feature-cards {
+  border-width: 5px 5px;
+  border-color: #5C60FF;
+  border-style: solid;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
 .target {
-  width: 350px;
-  height: 375px;
+  width: 300px;
+  height: 325px;
 }
 
 .goal {
-  width: 350px;
-  height: 375px;
+  width: 300px;
+  height: 325px;
 }
 
 .strategy {
-  width: 350px;
-  height: 375px;
+  width: 300px;
+  height: 325px;
 }
+
+
+/* Testimonials */
+
+.testimonials {
+  text-align: center;
+  background-color: #A228C1;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.text-1 {
+  padding: 1rem 1.4rem 3% 1.4rem;
+}
+
+
+/* .text-center6 {
+  background-color: #E2E3FF;
+  margin-left: 40%;
+} */
+
+
 
 .why {
   width: 503px;
   height: 446px;
 }
+
+
+/* Footer Section */
 
 .quaperal {
   width: 100px;
