@@ -8,7 +8,17 @@ h1 {
   font-family: 'Poppins';
 }
 
+h2 {
+  font-family: 'Poppins';
+  text-align: center;
+}
+
 h5 {
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+h6 {
   font-family: 'Poppins';
   font-weight: bold;
 }
@@ -100,7 +110,7 @@ p {
 .illustration {
   width: 550px;
   height: 550px;
-  margin: 30px auto;
+  margin: 30px 0 0 0;
 }
 
 .layer1 {
@@ -186,11 +196,11 @@ p {
 }
 
 .carousel-item {
-  padding: 10% 20%;
+  padding: 10% 15% 10%;
 }
 
 .text-1 {
-  padding: 1rem 2rem 8% 2rem;
+  padding: 1rem 2rem 4% 2rem;
 }
 
 @media (max-width: 1028px) {
@@ -199,21 +209,59 @@ p {
   }
 
   .tagline {
+    font-size: 4rem;
     width: 100%;
     margin: 100px 0 0 0;
   }
 
   .introtext {
+    font-size: 1.5rem;
     width: 95%;
     margin: 30px 0 50px 0;
     text-align: center;
   }
   .illustration {
-    width: 370px;
-    height: 370px;
+    width: 380px;
+    height: 380px;
     margin: 30px 0 0 0;
   }
 }
+
+/* Recent Articles */
+
+.articles {
+  padding: 5% 15%;
+}
+
+.h-100 {
+  background-color: #FCEFFF;
+  border: none;
+  padding: 15% 0 7% 0;
+}
+
+.card-text {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.h5-articles {
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.scam {
+  height: 192px;
+}
+
+.project {
+  height: 192px;
+}
+
+.nft {
+  height: 192px;
+}
+
+
 
 
 .why {
