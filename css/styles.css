@@ -11,6 +11,12 @@ h1 {
 h2 {
   font-family: 'Poppins';
   text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 h5 {
@@ -186,6 +192,11 @@ p {
   height: 325px;
 }
 
+.strategy-row {
+  width: 60%;
+  margin: auto;
+}
+
 
 /* Testimonials */
 
@@ -230,7 +241,7 @@ p {
 /* Recent Articles */
 
 .articles {
-  padding: 5% 15%;
+  padding: 5% 22%;
 }
 
 .h-100 {
@@ -266,15 +277,11 @@ p {
   padding-top: 5%;
 }
 
-.why {
-  width: 503px;
-  height: 446px;
-}
 
 /* Book a Meeting */
 
 .meeting {
-  padding: 8% 15%;
+  padding: 6% 15%;
   background-color: #D437FD;
 }
 
@@ -282,7 +289,40 @@ p {
   color: #fff;
 }
 
+
+
+/* Why Quaperal */
+.why-quaperal {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.why {
+  width: 503px;
+  height: 446px;
+  float: right;
+  margin-left: 10%;
+}
+
+.why-quaperal-heading {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.why-quaperal-text {
+  padding-bottom: 50px;
+}
+
+
 /* Footer Section */
+
+.footer {
+  background-color: #3C3F9A;
+  padding: 8% 15%;
+  color: #fff;
+}
+
+
 
 .quaperal {
   width: 100px;
