@@ -261,14 +261,26 @@ p {
   height: 192px;
 }
 
-
-
+.btn-articles {
+  text-align: center;
+  padding-top: 5%;
+}
 
 .why {
   width: 503px;
   height: 446px;
 }
 
+/* Book a Meeting */
+
+.meeting {
+  padding: 8% 15%;
+  background-color: #D437FD;
+}
+
+.book-style {
+  color: #fff;
+}
 
 /* Footer Section */
 
