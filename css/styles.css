@@ -369,7 +369,7 @@ p {
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 495px) {
 
   p {
     font-size: 1.12rem;
@@ -402,9 +402,11 @@ p {
   }
 
   .illustration {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   text-align: center;
+  display: block;
+  margin: 50px auto;
   }
 
   .hero-btn {
@@ -412,7 +414,7 @@ p {
   }
 
   .layer1 {
-    margin-top: 50px;
+    margin-top: 0;
   }
 
 
