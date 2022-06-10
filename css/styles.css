@@ -118,6 +118,8 @@ p {
   margin-left: 22%;
   border-width: 0 5px 5px 0;
   border-color: #8D8D8D;
+  width: 55%;
+  height: 5.5rem;
 }
 
 .ptn {
@@ -165,10 +167,6 @@ p {
   height: 325px;
 }
 
-/* .strategy-row {
-  width: 60%;
-  margin: auto;
-} */
 
 
 /* Testimonials */
@@ -280,7 +278,6 @@ p {
 /* Brand Details */
 
 .email {
-  font-size: 0.9rem;
   padding-bottom: 5%;
 }
 
@@ -339,7 +336,7 @@ p {
 
 .list-footer {
   line-height: 30px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: lighter;
 }
 
@@ -361,7 +358,6 @@ p {
 }
 
 .join-text {
-  font-size: 0.9rem;
   padding-top: 5%;
   padding-bottom: 5%
 }
@@ -372,30 +368,108 @@ p {
   border-color: #fff;
 }
 
-@media (max-width: 950px) {
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  p {
+    font-size: 1.12rem;
+  }
+
+/* Nav Bar */
+
+  .container-fluid {
+    padding: 5px 30px
+  }
+
+/* Hero Section */
+
   .hero {
-    text-align: center;
+    padding: 50px 30px;
   }
 
   .tagline {
-    font-size: 4rem;
-    width: 100%;
-    margin: 100px 0 0 0;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
   }
 
   .introtext {
-    font-size: 1.5rem;
-    width: 95%;
-    margin: 30px 0 50px 0;
-    text-align: center;
-  }
-  .illustration {
-    width: 380px;
-    height: 380px;
-    margin: 30px 0 0 0;
+  width: 95%;
+  margin: 30px 0 50px 0;
+  text-align: center;
   }
 
-  .testimonial-card {
-    height: 35rem
+  .illustration {
+  width: 300px;
+  height: 300px;
+  text-align: center;
   }
+
+  .hero-btn {
+    text-align: center;
+  }
+
+  .layer1 {
+    margin-top: 50px;
+  }
+
+
+/* Partner Section */
+
+  .container-fluid2 {
+    padding: 30px;
+}
+
+  .text-center1 {
+    width: 75%;
+    margin-left: 10.5%;
+    text-align: center;
+}
+
+/* Features */
+
+.features {
+  padding: 30px;
+}
+
+.feature-cards {
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+  .goal {
+  width: 200px;
+  height: 225px;
+}
+
+  .target {
+  width: 200px;
+  height: 225px;
+}
+
+  .strategy {
+  width: 200px;
+  height: 225px;
+}
+
+/* Testimonials */
+
+.testimonials {
+  padding: 30px;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+.text-1 {
+  padding: 0;
+}
+
+.testimonial-card {
+  height: 20rem
+}
+
 }
