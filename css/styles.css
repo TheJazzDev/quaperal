@@ -34,6 +34,11 @@ p {
   padding-bottom: 10px;
 }
 
+.navbar-logo {
+  width: 70px;
+  height: 70px;
+}
+
 .navbar-brand {
   color: #3A3A3A;
   font-family: 'Poppins';
@@ -141,7 +146,7 @@ p {
 }
 
 .features-col {
-  padding: 5% 5% 5%;
+  padding: 7% 7% 7%;
 }
 
 .feature-cards {
@@ -232,8 +237,7 @@ p {
 /* Book a Meeting */
 
 .meeting {
-  padding: 6% 15%;
-  background-color: #D437FD;
+  padding: 6% 15%
 }
 
 .book-style {
@@ -369,7 +373,7 @@ p {
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 495px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 495px) {
 
   p {
     font-size: 1.12rem;
@@ -381,6 +385,16 @@ p {
     padding: 5px 30px
   }
 
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .navbar-logo {
+    width: 50px;
+    height: 50px;
+  }
+
 /* Hero Section */
 
   .hero {
@@ -389,7 +403,7 @@ p {
 
   .tagline {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
@@ -402,8 +416,8 @@ p {
   }
 
   .illustration {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   display: block;
   margin: 50px auto;
@@ -471,7 +485,55 @@ p {
 }
 
 .testimonial-card {
-  height: 20rem
+  height: 25rem
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 0;
+  color: #000;
+  right: 100px;
+  left: 100px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  color: #000;
+}
+
+/* Recent Articles */
+
+.articles {
+  padding: 30px 30px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.h5-articles {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.articles-image {
+  height: 192px;
+  width: 330px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Book a Meeting */
+
+/* .meeting {
+  background-image: url("images/meeting.png");
+} */
+
+.book-style {
+  color: #fff;
 }
 
 }
